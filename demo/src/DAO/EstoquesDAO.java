@@ -7,15 +7,15 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import Model.Cliente;
+import Model.Estoque;
 
-public class ClientesDAO {
+public class EstoquesDAO {
     private Connection connection;
 
-    public ClientesDAO(Connection connection) {
+    public EstoquesDAO(Connection connection) {
         this.connection = connection;
     }
 
     // Implemente os métodos de CRUD aqui
-    // Exemplo: createCliente, readClientes, updateCliente, deleteCliente
+    // Exemplo: createEstoque, readEstoques, updateEstoque, deleteEstoque
 }
